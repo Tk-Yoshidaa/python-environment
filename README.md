@@ -36,3 +36,8 @@ If you need to remove package already installed:
 ```
 poerty remove PACKAGE_NAME
 ```
+
+Recommend to create `.venv` in a project by the following command
+```
+poerty config virtualenvs.in-project true
+```
