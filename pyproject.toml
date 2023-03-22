@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-test-environment"
+name = "python--environment"
 version = "0.1.0"
 description = ""
 authors = []
