@@ -12,7 +12,7 @@ Install poetry
 ...
 ```
 
-Configure poerty:
+Configure poetry:
 ```
 ...
 ```
@@ -24,20 +24,20 @@ poetry init
 
 If you need to add new package:
 ```
-poerty add PACKAGE_NAME
+poetry add PACKAGE_NAME
 ```
 
 If you need to specify the version of the package:
 ```
-poerty add "PACKAGE_NAME=1.0.0"
+poetry add "PACKAGE_NAME=1.0.0"
 ```
 
 If you need to remove package already installed:
 ```
-poerty remove PACKAGE_NAME
+poetry remove PACKAGE_NAME
 ```
 
 Recommend to create `.venv` in a project by the following command
 ```
-poerty config virtualenvs.in-project true
+poetry config virtualenvs.in-project true
 ```
