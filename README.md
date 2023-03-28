@@ -68,3 +68,9 @@ Recommend to create `.venv` in a project by the following command
 ```
 poetry config virtualenvs.in-project true
 ```
+
+## Note
+If `_WheelFileValidationError` occurred in installing `debugpy`, run following command:
+```
+poetry config installer.modern-installation false
+```
