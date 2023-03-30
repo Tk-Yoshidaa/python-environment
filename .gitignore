@@ -2,6 +2,9 @@
 *.py
 *.ipynb
 *.txt
+src
+inputs
+outputs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
